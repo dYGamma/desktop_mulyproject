@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/api/index.js",
+        "methods": ["POST", "GET", "PUT", "DELETE"]
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/frontend/$1"
+      }
+    ]
+  }
+  

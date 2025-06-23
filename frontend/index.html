@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Дмитрий, Инженер‑программист – Портфолио и Резюме</title>
+  
+  <!-- Основные метатеги -->
+  <meta name="description" content="Портфолио и резюме Дмитрия — опыт в разработке веб‑ и десктоп‑приложений, ML‑решениях и автоматизации. Ключевые технологии: Python, JavaScript, C++, SQL.">
+  <meta name="keywords" content="Дмитрий, портфолио, резюме, инженер‑программист, разработка, Python, JavaScript, C++, SQL, TensorFlow, Electron">
+  <meta name="author" content="Дмитрий">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Canonical URL -->
+  <!-- <link rel="canonical" href="https://your-site.com/"> -->
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+  <link rel="icon" sizes="512x512" href="images/android-chrome-512x512.png">
+  <meta name="msapplication-TileColor" content="#121212">
+  <meta name="msapplication-TileImage" content="images/mstile-144x144.png">
+
+  <!-- Open Graph для социальных сетей -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Дмитрий – Инженер‑программист. Портфолио и Резюме">
+  <meta property="og:description" content="Узнайте обо всех проектах и навыках инженера‑программиста: от веб‑разработки до ML и автоматизации.">
+  <meta property="og:image" content="https://your-site.com/images/preview.jpg">
+  <meta property="og:url" content="https://your-site.com/">
+  <meta property="og:locale" content="ru_RU">
+
+  <!-- Twitter Card -->
+  <!-- <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ваш_твиттер">
+  <meta name="twitter:creator" content="@ваш_твиттер">
+  <meta name="twitter:title" content="Дмитрий – Инженер‑программист. Портфолио и Резюме">
+  <meta name="twitter:description" content="Полное резюме и портфолио проектов: веб‑приложения, десктоп‑приложения, ML‑решения.">
+  <meta name="twitter:image" content="https://your-site.com/images/preview.jpg"> -->
+
+  <!-- Шрифты и стили -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </noscript>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+  <div class="gradient-background"></div>
+  <div class="kanji-background"></div>
+  <div class="petal-background"></div>
+  
+  <header class="header">
+    <div class="logo">Делаю идеи реальностью</div>
+    <!-- <nav>
+      <a href="#about">Обо мне</a>
+      <a href="#services">Навыки</a>
+      <a href="#contact">Контакты</a>
+    </nav> -->
+  </header>
+
+  <main id="main-content">
+    <section class="hero" data-aos="fade-up" data-aos-duration="1000">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>Добро пожаловать в моё портфолио</h1>
+        <p>Опыт, проекты и профессиональные навыки в одном месте <br> Индивидуальный подход и безукоризненное исполнение</p>
+        <a href="#form" class="btn">Связаться со мной</a>
+      </div>
+      <img 
+        src="images/hoi2.png" 
+        srcset="images/hoi2.png   640w,
+                images/hoi2.png 1280w,
+                images/hoi2.png 1920w"
+        sizes="(max-width: 600px) 640px, 
+               (max-width: 900px) 1280px, 
+               1920px"
+        alt="Зловещий логотип с черепом"
+        loading="lazy"
+        class="parallax-bg"
+      >
+    </section>
+
+    <section id="about" class="section about" 
+             data-aos="fade-up"
+             data-aos-anchor-placement="top-bottom"
+             data-aos-delay="200"
+             itemscope itemtype="https://schema.org/RealEstateAgent">
+      <div class="container">
+        <h2 itemprop="name">Обо мне</h2>
+        <p itemprop="description">Я — стараюсь стать профессионалом в сфере разработки ПО. Прежде уже занимался:<br>
+          - Разработкой ВЕБ-приложений (frontend и backend) <br>
+          - Десктоп программированием (Qt, Tkinter, Electron...) <br>
+          - Системами машинного обучения (TensorFlow, scikit‑learn) <br>
+          - Дизайнерскими решениями</p>
+        <p itemprop="description"><br>Часть моих мини-проектов:</p>
+        <ul class="evil-list">
+          <li>Бинарный классификатор для определения пола человека по фотографии</li>
+          <li>ВЕБ-сайт для просмотра аниме сериалов</li>
+          <li>Десктоп приложения: учета, анализа и визуализации данных</li>
+          <!-- <li>Первыми запатентовали "Глобальное потепление™"</li> -->
+        </ul>
+        <p>Моя цель: <em>"Использовать передовые IT‑решения для повышения эффективности бизнеса и улучшения пользовательского опыта."</em></p>
+      </div>
+    </section>
+
+    <section id="services" class="section services" data-aos="fade-up">
+      <div class="container">
+        <h2>Навыки</h2>
+        <div class="service-grid">
+          <div class="service-item">
+            <h3>Python</h3>
+            <p>В сфере разработки десктопных приложений, скриптов автоматизации и проектов в области машинного обучения (TensorFlow, scikit‑learn).</p>
+          </div>
+          <div class="service-item">
+            <h3>SQL</h3>
+            <p>Проектирование и оптимизация запросов, создание схем баз данных, работа с транзакциями и индексами.</p>
+          </div>
+          <div class="service-item">
+            <h3>Java</h3>
+            <p>Разработка серверных приложений, понимание ООП, использование в учебных и кроссплатформенных проектах.</p>
+          </div>
+          <div class="service-item">
+            <h3>JavaScript</h3>
+            <p>Реализация интерактивных интерфейсов и логики на стороне клиента, опыт в веб- и Electron-приложениях.</p>
+          </div>
+          <div class="service-item">
+            <h3>TypeScript</h3>
+            <p>Статическая типизация для масштабируемых фронтенд- и десктоп-проектов, улучшенная поддержка и надежность кода.</p>
+          </div>
+          <div class="service-item">
+            <h3>PostgreSQL</h3>
+            <p>Надежные и масштабируемые реляционные БД, настройка связей, выполнение сложных SQL-запросов.</p>
+          </div>
+          <div class="service-item">
+            <h3>MongoDB</h3>
+            <p>NoSQL-база данных для гибких схем хранения JSON-структур и быстрой разработки приложений.</p>
+          </div>
+          <div class="service-item">
+            <h3>Electron</h3>
+            <p>Кроссплатформенные десктоп-приложения на основе веб-технологий (HTML, CSS, JS) с использованием Electron.</p>
+          </div>
+          <div class="service-item">
+            <h3>C++</h3>
+            <p>Опыт разработки высокопроизводительных десктоп- и системных приложений, работы с Qt и нативным кодом.</p>
+          </div>
+          <!-- <div class="service-item">
+            <h3>Go</h3>
+            <p>Начинающий Go-разработчик: создание микросервисов и высокопроизводительных бекенд-сервисов.</p>
+          </div>
+          <div class="service-item">
+            <h3>Rust</h3>
+            <p>Изучение безопасной многопоточности и управления памятью для надежных и быстрых приложений.</p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="team" class="section team" data-aos="fade-up">
+      <div class="container">
+        <h2>Наша команда зла</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <h3>Доктор Дудима</h3>
+            <p>Главный злодей-основатель. Изобрел 404 способа порабощения человечества</p>
+          </div>
+          <div class="team-member">
+            <h3>Леди Апокалипсис</h3>
+            <p>Специалист по манипуляциям. Может убедить даже вегана съесть стейк из демона</p>
+          </div>
+          <div class="team-member">
+            <h3>Владыка Багов</h3>
+            <p>IT-демон. Создает вирусы, которые переживут вашу бабушку</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="contact" class="section contact" data-aos="fade-up">
+      <div class="container text-center">
+        <h2>Где меня найти?</h2>
+        <div class="contact-buttons" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem;">
+          <a href="https://github.com/dYGamma" target="_blank"
+            class="btn btn-primary"
+            style="text-decoration: none;">
+            GitHub
+          </a>
+          <a href="https://spb.hh.ru/resume/1351718bff0d530ec40039ed1f425a51684370" target="_blank"
+            class="btn btn-secondary"
+            style="text-decoration: none;">
+            hh.ru
+          </a>
+          <a href="http://88.210.11.121:3100/" target="_blank"
+            class="btn btn-success"
+            style="text-decoration: none;">
+            Мой блог
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="form" class="section form-section" data-aos="zoom-in">
+      <div class="form-wrapper">
+        <h2>Сотрудничество</h2>
+        <p>Есть вопрос или предложение? Заполните форму ниже.</p>
+        <form id="salesForm" enctype="multipart/form-data">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Как вас зовут?</label>
+              <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Ваш email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Телефон:</label>
+              <input type="text" id="phone" name="phone" placeholder="+7 (XXX) XXX-XX-XX" pattern="\+?[0-9]{10,15}" required>
+            </div>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" placeholder="Ваше сообщение…" required></textarea>
+          </div>
+
+          <div class="form-group full-width file-upload-group">
+            <label for="fileInput">Прикрепить файл:</label>
+            <button type="button" id="addFileBtn" class="btn btn-outline">Добавить файл</button>
+            <input
+              type="file"
+              id="fileInput"
+              name="photos"
+              accept="image/*,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+              multiple
+            >
+            <div id="selectedFiles" class="file-previews"></div>
+          </div>
+
+          <div class="form-footer">
+            <div class="g-recaptcha" data-sitekey="6LeR9_cqAAAAAL9F8SZx2TTkK800oRLXlG2zRcQ1" data-theme="dark"></div>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+          </div>
+
+          <div id="result" class="form-result"></div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>
+        © Дмитрий Самарин<br>
+        Телефон: <a href="tel:+79224306406">+7&nbsp;(922)&nbsp;430‑64‑06</a><br>
+        Telegram: <a href="https://t.me/kwopchiq" target="_blank" rel="noopener">t.me/kwopchiq</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Мобильное меню контактов: выезжает из правого нижнего угла -->
+  <div class="mobile-contacts">
+    <button class="contacts-toggle" aria-label="Контакты">
+      <img src="https://img.icons8.com/color/48/000000/contacts.png" alt="Контакты">
+    </button>
+    <div class="contacts-menu">
+      <a href="https://wa.me/+79224306406" target="_blank" aria-label="WhatsApp">
+        <img src="https://img.icons8.com/color/24/whatsapp--v1.png" alt="WhatsApp">
+      </a>
+      <a href="https://t.me/kwopchiq" target="_blank" aria-label="Telegram">
+        <img src="https://img.icons8.com/color/24/telegram-app.png" alt="Telegram">
+      </a>
+      <a href="https://vk.com/id.pornhub" target="_blank" aria-label="ВКонтакте">
+        <img src="https://img.icons8.com/color/24/vk-com.png" alt="ВКонтакте">
+      </a>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
